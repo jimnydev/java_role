@@ -32,8 +32,8 @@ env:
     DOCKER_TAG_TO_PUBLISH=8u372-bionic-openjdk-headless
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_MAJOR=8 JDK_VERSION=8u382-ga-1~20.04.1
     DOCKER_TAG_TO_PUBLISH=8u382-focal-openjdk-headless
-  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=8 JDK_VERSION=8u382-ga-1~22.04.1
-    DOCKER_TAG_TO_PUBLISH=8u382-jammy-openjdk-headless
+  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=8 JDK_VERSION=8u402-ga-2ubuntu1~22.04
+    DOCKER_TAG_TO_PUBLISH=8u402-jammy-openjdk-headless
 
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_VENDOR=temurin JDK_MAJOR=8 JDK_VERSION=8.0.382.0.0+5
     DOCKER_TAG_TO_PUBLISH=8u382-focal-temurin-jdk
@@ -72,8 +72,8 @@ env:
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_MAJOR=11 JDK_VERSION=11.0.20+8-1ubuntu1~20.04
     DOCKER_TAG_TO_PUBLISH=11.0.20-focal-openjdk-headless
   - DOCKER_IMAGE_BASE=ubuntu:jammy DOCKER_TAG_TO_PUBLISH=11-jammy-openjdk-headless
-  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=11 JDK_VERSION=11.0.20+8-1ubuntu1~22.04
-    DOCKER_TAG_TO_PUBLISH=11.0.20-jammy-openjdk-headless
+  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=11 JDK_VERSION=11.0.22+7-0ubuntu2~22.04.1
+    DOCKER_TAG_TO_PUBLISH=11.0.22-jammy-openjdk-headless
 
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_MAJOR=11 JDK_VENDOR=temurin JDK_VERSION=11.0.20.0.0+8
     DOCKER_TAG_TO_PUBLISH=11.0.20-focal-temurin-jdk
@@ -103,8 +103,8 @@ env:
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_MAJOR=17 JDK_VERSION=17.0.8+7-1~20.04.2
     DOCKER_TAG_TO_PUBLISH=17.0.8-focal-openjdk-headless
   - DOCKER_IMAGE_BASE=ubuntu:jammy DOCKER_TAG_TO_PUBLISH=17-jammy-openjdk-headless
-  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=17 JDK_VERSION=17.0.8+7-1~22.04
-    DOCKER_TAG_TO_PUBLISH=17.0.8-jammy-openjdk-headless
+  - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=17 JDK_VERSION=17.0.10+7-1~22.04.1
+    DOCKER_TAG_TO_PUBLISH=17.0.10-jammy-openjdk-headless
   - DOCKER_IMAGE_BASE=ubuntu:focal JDK_MAJOR=17 JDK_VENDOR=temurin JDK_VERSION=17.0.8.0.0+7
     DOCKER_TAG_TO_PUBLISH=17.0.8-focal-temurin-jdk
   - DOCKER_IMAGE_BASE=ubuntu:jammy JDK_MAJOR=17 JDK_VENDOR=temurin JDK_VERSION=17.0.8.0.0+7
